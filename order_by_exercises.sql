@@ -26,9 +26,9 @@ last_name LIKE 'e%'
 AND last_name LIKE '%e';
 
 SELECT * FROM employees WHERE
-hire_date LIKE "199%"
+hire_date LIKE '199%'
 AND birth_date LIKE '%-12-25'
-ORDER BY hire_date DESC, birth_date DESC;
+ORDER BY birth_date, hire_date DESC;
 
 SELECT * FROM employees WHERE
 last_name LIKE '%q%'

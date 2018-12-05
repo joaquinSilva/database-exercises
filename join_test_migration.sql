@@ -1,0 +1,1 @@
+DROP IF EXISTS join_test_db;

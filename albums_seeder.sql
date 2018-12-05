@@ -1,11 +1,12 @@
-
 SELECT 'Using codeup_test_db' AS 'Use Statement';
 
 USE codeup_test_db;
 
 SELECT 'Truncating albums table' AS 'Truncate Statement';
 
-TRUNCATE
+TRUNCATE albums;
+
+SELECT 'Inserting records into albums table' AS 'Insert Statement';
 
 
 INSERT INTO albums (artist, name, release_date, sales, genre)

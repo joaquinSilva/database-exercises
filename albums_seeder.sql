@@ -1,11 +1,12 @@
-
 SELECT 'Using codeup_test_db' AS 'Use Statement';
 
 USE codeup_test_db;
 
 SELECT 'Truncating albums table' AS 'Truncate Statement';
 
-TRUNCATE
+TRUNCATE albums;
+
+SELECT 'Inserting records into albums table' AS 'Insert Statement';
 
 
 INSERT INTO albums (artist, name, release_date, sales, genre)
@@ -41,3 +42,5 @@ VALUES  ('Michael Jackson', 'Thriller', 1982, 47.3, 'Pop, rock, R&B'),
         ('Pink Floyd', 'The Wall', 1979, 18.6, 'Progressive rock'),
         ('Santana', 'Supernatural', 1999, 20.5, 'Latin rock'),
         ('Guns N'' Roses', 'Appetite for Destruction', 1987, 21.6, 'Hard rock');
+
+SELECT * FROM albums;
